@@ -1,0 +1,6 @@
+c:\users\sean\documents\visual studio 2013\Projects\QuickDrawGenerator\QuickDrawGenerator\bin\QuickDrawGenerator.dll.config
+c:\users\sean\documents\visual studio 2013\Projects\QuickDrawGenerator\QuickDrawGenerator\bin\QuickDrawGenerator.dll
+c:\users\sean\documents\visual studio 2013\Projects\QuickDrawGenerator\QuickDrawGenerator\bin\QuickDrawGenerator.pdb
+c:\users\sean\documents\visual studio 2013\Projects\QuickDrawGenerator\QuickDrawGenerator\obj\Debug\QuickDrawGenerator.csprojResolveAssemblyReference.cache
+c:\users\sean\documents\visual studio 2013\Projects\QuickDrawGenerator\QuickDrawGenerator\obj\Debug\QuickDrawGenerator.dll
+c:\users\sean\documents\visual studio 2013\Projects\QuickDrawGenerator\QuickDrawGenerator\obj\Debug\QuickDrawGenerator.pdb

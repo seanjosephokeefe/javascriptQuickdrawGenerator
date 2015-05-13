@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quick Draw Calculator</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <br />
+    <div id="DivContainer">
+        <div id="DivWhiteSign">CISS 221 Quick Draw</div>
+        <div id="DivBoard"></div>
+        <div id="DivButtons">
+            <p>Number of spots you'd like: <input id="TBSpots" type="text" /></p>
+            <input id="BtnGetSpots" type="button" value="Get Spots" />
+            <input id="BtnStart" type="button" value="Start Game" />
+            <input id="BtnClear" type="button" value="Clear" />
+        </div>
+        <div id="DivNumbers"></div>
+        <br />
+        <div class="center"><a href="#" id="AnchorHowTo">How to Play</a>&nbsp;&nbsp;<a href="#" id="AnchorOdds">Odds of Winning</a></div>
+    </div>
+    <br />
+    <div id="DivPick"></div>
+    <div id="DialogHowTo" title="How to Play">
+        First enter how many spots you'd like to play between 1 and 10.<br /><br />
+        Then click <input type="button" disabled="disabled" value="Get Spots" /> and your numbers will be revealed.<br /><br />
+        Next click <input type="button" disabled="disabled" value="Start Game" /> to play.<br /><br />
+        Pay close attention to the numbers to see if you've won.<br /><br />Good luck!!!
+    </div>
+    <div id="DialogOdds" title="Odds of Winning">
+        <div id="DivMyDialog">
+            <h3 class="yellow">Numbers matched winning per $1 played</h3>
+            <p>
+                10 SPOT GAME<br />
+                <span class="white">
+                    10 $100,000<br />
+                    9 $5,000<br />
+                    8 $300<br />
+                    7 $45<br />
+                    6 $10<br />
+                    5 $2<br />
+                    0 $5
+                </span><br />
+                <span class="pink">Chances of Winning 1:9.05</span>
+            </p>
+            <p>
+                9 SPOT GAME<br />
+                <span class="white">
+                    9 $30,000<br />
+                    8 $3,000<br />
+                    7 $125<br />
+                    6 $20<br />
+                    5 $5<br />
+                    0 $2
+                </span><br />
+                <span class="pink">Overall Chances of Winning 1:9.74</span>
+            </p>
+            <p>
+                8 SPOT GAME<br />
+                <span class="white">
+                    8 $10,000<br />
+                    7 $550<br />
+                    6 $75<br />
+                    5 $6<br />
+                    0 $2
+                </span><br />
+                <span class="pink">Overall Chances of Winning 1:9.17</span>
+            </p>
+            <p>
+                7 SPOT GAME<br />
+                <span class="white">
+                    7 $5,000<br />
+                    6 $100<br />
+                    5 $20<br />
+                    4 $2<br />
+                    0 $1
+                </span><br />
+                <span class="pink">Overall Chances of Winning 1:5.46</span>
+            </p>
+            <p>
+                6 SPOT GAME<br />
+                <span class="white">
+                    6 $1,000<br />
+                    5 $55<br />
+                    4 $6<br />
+                    3 $1
+                </span><br />
+                <span class="pink">
+                    Overall Chances of Winning 1:6.19
+                </span>
+            </p>
+            <p>
+                5 SPOT GAME<br />
+                <span class="white">
+                    5 $300<br />
+                    4 $20<br />
+                    3 $2
+                </span><br />
+                <span class="pink">
+                    Overall Chances of Winning 1:10.34
+                </span>
+            </p>
+            <p>
+                4 SPOT GAME<br />
+                <span class="white">
+                    4 $55<br />
+                    3 $5<br />
+                    2 $1
+                </span><br />
+                <span class="pink">
+                    Overall Chances of Winning 1:3.86
+                </span>
+            </p>
+            <p>
+                3 SPOT GAME<br />
+                <span class="white">
+                    3 $23<br />
+                    2 $2
+                </span><br />
+                <span class="pink">
+                    Overall Chances of Winning 1:6.55
+                </span>
+            </p>
+            <p>
+                2 SPOT GAME
+                <br />
+                <span class="white">
+                    2 $10
+                </span><br />
+                <span class="pink">
+                    Overall Chances of Winning 1:16.63
+                </span>
+            </p>
+            <p>
+                1 SPOT GAME
+                <br />
+                <span class="white">
+                    1 $2
+                </span><br />
+                <span class="pink">
+                    Overall Chances of Winning 1:4.00
+                </span>
+            </p>
+        </div>
+    </div>
+    <div id="DialogStart" title="Ut-Oh. You pressed Start and...">
+        <table>
+            <tr>
+                <td>
+                    <img src="images/wag.jpg" />
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <p>You need to enter how many spots you'd like<br /><br />and then click &nbsp;&nbsp;<input type="button" disabled="disabled" value="Get Spots" /><br /><br />before you can press &nbsp;&nbsp;<input type="button" disabled="disabled" value="Start Game" /></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="DialogBadInput" title="You can fix this.">
+        <table>
+            <tr>
+                <td>
+                    <img src="images/wag.jpg" />
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <p>You need to enter a number between 1 and 10 <br /><br />and then click &nbsp;&nbsp;<input type="button" disabled="disabled" value="Get Spots" /></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

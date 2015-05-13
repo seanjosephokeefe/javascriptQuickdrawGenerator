@@ -1,0 +1,156 @@
+﻿body {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri, Arial;
+    background-color: black;
+    font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+    color: #778899;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+    a:hover {
+        color: lightsalmon;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+#TBSpots {
+color:red;
+font-weight:bold;
+font-size:18px;
+width:25px;
+}
+
+#DivPick{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:24px;
+    font-weight:bold;
+    color:yellow;
+    text-align:center;
+}
+
+#DivContainer {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px silver solid;
+    padding: 70px 0px 10px 0px;
+}
+
+#DivBoard {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px silver solid;
+    background-color: black;
+    padding: 0px 10px 10px 10px;
+}
+
+#DivButtons {
+    text-align: center;
+}
+
+#DialogHowTo {
+    background-color: white;
+    color: #778899;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#DialogStart {
+    background-color: black;
+    color: #778899;
+}
+
+#DialogBadInput {
+    background-color: black;
+    color: #778899;
+}
+
+#DivMyDialog {
+    font-size: 20px;
+    height: 600px;
+    font-family: calibri, arial;
+}
+
+#DialogOdds {
+    background-color: black;
+    color: #778899;
+}
+
+#DivWhiteSign {
+    margin-left: auto;
+    margin-right: auto;
+    color: #778899;
+    background-color: white;
+    border: 3px solid #778899;
+    width: 440px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#DivNumbers{
+    text-align:center;
+    color:red;
+    font-size:18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.boardTB {
+    width: 40px;
+    border: none;
+    color: black;
+    background-color: lightyellow;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+}
+
+.hidden {
+    display: none;
+}
+
+.tbLong {
+    width: 450px;
+}
+
+.pink {
+    color: lightsalmon;
+}
+
+.white {
+    color: white;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color:red;
+}
