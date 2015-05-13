@@ -1,0 +1,2 @@
+# javascriptQuickdrawGenerator
+Here's a video keno simulator that I created with JavaScript. Currently you can only choose the number of spots to play and not your own spots. I may change that soon. So you can choose between 1 and 10 spots, then Get Spots to randomly choose your numbers, and then Start Game to run the simulation. It's supposed to be fun so I hope it is. There is a html only folder that you can run the code directly inside of, and then there is a Visual Studio project folder. I prefer Visual Studio when debugging JavaScript.
